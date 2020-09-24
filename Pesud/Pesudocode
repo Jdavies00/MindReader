@@ -1,0 +1,129 @@
+    requirements
+
+
+need to have pesudo code
+
+use javascript to  show the animation transistions 
+ 
+show the state managment for each step  of the single page app (view 1,2,3..) without refreshing the page 
+    do this be creating a single index.html
+        the html may wrk best as a card 
+        or maybe eaiser as just a page to pull and push too
+
+deca
+
+
+need a funtion to creat randomnes
+
+                                            function random(min, max) {
+                                            const num = Math.floor(Math.random() * (max - min + 1)) + min;
+                                            return num;
+                                            }
+
+
+    Ideally this could all be done in js and loaded to html  as a json file 
+        create objects that change the state of what is being viewed
+
+the restart button must not refresh the page, only refresh the state of the mind reader
+     do this with a function to change the state of the page 
+     ---
+     for this use a function to update the state
+
+     state.prototype.update = function(){
+         if((some condition is true)){
+             then do this 
+         }
+     }
+
+     
+
+use the icons of my choice 
+
+all multi of 9 should be the same symbol
+    all muti of 9 should be the same symbol
+         this is how the trick is done 
+
+again only use on page of html the onlything that changes is the a "state" = variable that only stores the the current view to display 
+
+
+
+function that chooses random charature make and arry for all random on key then gen randome number multi but 1000
+group all the ones devisi by 9 together 
+
+
+
+NewdoCode
+
+style the html 
+ nope dont do that ---------<canvas width="1920" height="520"></canvas>  do this to "canvas" the page and remove the scrool bar
+
+ create a hearder 
+ creata a subheader
+ a var for the chars[] of 10 char
+ var dor the state= state 1
+ empty var for the selceted system that willl be filled by the funtion as needed this is the update system    &&*&*&*&*&&&&*!&&!*&@& AHHA moment
+
+function for randomenes(){
+    var right answer = char[Math.floor(Math.random() * 10)];            *****randomly selet a index in the char array using the math.random * 10-the number of items in the array rounded down
+    var str = " ";                                                      creat a var string to addlater
+
+    for(i = 0; i<= 99, i++){                                            for i =0; aslong as 9<= 99; add 1
+        if (i % 9){                                                         if 9 ca be divide and leave a remainder % devides and leaves a remainder if there is one
+            var reemainder = char[Math.floor(Math.random() * 10)]          ****** may be able to make the right anser var global and reuse it for the reeemainder var - do not do this 
+        }   str = str + i + "-"+ remainder + <br>                                                  
+    }      
+    else {                                                                  
+            str = str + i + " - " + rightAns + "<br>"
+            selectedSym = rightAns                                      
+    
+}                                                                  
+str=str                                                                  no clue why
+return str                                                                  no
+
+
+}
+function nextState()                                                      func to chage state()
+    console.log(state)                                                                  log it
+    state++                                                                  post fix increment
+    updateView()                                                            call function update view
+}
+
+
+
+
+
+function resetState() {                                                    func to restart
+    state = 1                                                           bring it back
+    updateView()                                                    call func to update view
+}
+
+
+
+
+                                                    this is the big one below
+
+ state = "view 1"
+ state = "view 2"
+ state = "view 3"
+state = "view 4"
+
+function updateView() {
+    if (state == 1 ) {
+        document.getElementById("header").innerHTML = ""                                                                                
+        document.getElementById("smTxt").innerHTML = ""
+        document.getElementById("btn2").style.visibility = ""
+        document.getElementById("btn1").style.visibility = ""
+        document.getElementById("pic").style.visibility = ""
+
+
+    else if(if (state == 2)
+    
+
+
+    else if if (state == 3)
+    .
+    .
+    .
+    .
+    }
+    updateView

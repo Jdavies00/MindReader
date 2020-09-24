@@ -1,0 +1,92 @@
+
+
+could make this like a deck of cards situations and use a arry on images
+
+
+https://stackoverflow.com/questions/8810927/showing-an-image-from-an-array-of-images-javascript i may be able to use palying card images to like some pick a card magic with an array of images
+
+
+var imgArray = new Array();
+
+imgArray[0] = new Image();
+imgArray[0].src = 'images/img/Splash_image1.jpg';
+
+imgArray[1] = new Image();
+imgArray[1].src = 'images/img/Splash_image2.jpg';
+
+/* ... more images ... */
+
+imgArray[5] = new Image();
+imgArray[5].src = 'images/img/Splash_image6.jpg';
+
+/*------------------------------------*/
+
+function nextImage(element)
+{
+    var img = document.getElementById(element);
+
+    for(var i = 0; i < imgArray.length;i++)
+    {
+        if(imgArray[i].src == img.src) // << check this
+        {
+            if(i === imgArray.length){
+                document.getElementById(element).src = imgArray[0].src;
+                break;
+            }
+            document.getElementById(element).src = imgArray[i+1].src;
+            break;
+        }
+    }
+}
+
+
+
+
+if (state == ) {
+        document.getElementById("header").innerHTML = "'
+        document.getElementById("smTxt").innerHTML = ""
+        document.getElementById("btn2").style.visibility = ""
+        document.getElementById("btn1").style.visibility = ""
+        document.getElementById("pic").style.visibility = ""
+
+
+
+
+        
+        
+        
+        
+
+
+
+var Deck = new Array();
+
+Deck[0] = new Image();
+Deck[0].src ="img/1ace.png";
+
+Deck[1] = new Image();
+Deck[1].src = ;
+
+Deck[2] = new Image();
+Deck[2].src = ;
+
+Deck[3] = new Image();
+Deck[3].src = ;
+
+Deck[4] = new Image();
+Deck[4].src = ;
+
+Deck[5] = new Image();
+Deck[5].src = ;
+
+Deck[6] = new Image();
+Deck[6].src = ;
+
+Deck[7] = new Image();
+Deck[7].src = ;
+
+Deck[8] = new Image();
+Deck[8].src = ;
+
+Deck[9] = new Image();
+Deck[9].src = ;
